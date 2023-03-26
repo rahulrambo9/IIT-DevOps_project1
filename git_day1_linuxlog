@@ -1,0 +1,42 @@
+23  pwd
+   24  mkdir project1
+   25  cd project1/
+   26  ls
+   27  git init
+   28  ls -a
+   29  vim test.txt
+   30  ls
+   31  git status
+   32  git add test.txt
+   33  git status
+   34  git commit -m "first commit hello project1"
+   35  git status
+   36  ls
+   37  git ls-files
+   38  vim test2.txt
+   39  ls
+   40  git ls-files
+   41  git status
+   42  git log
+   43  git status
+   44  git commit -a -m "new txt2 file added with both add and commit"
+   45  git status
+   46  git commit -a -m "new txt2 file added with both add and commit"
+   47  ls -lrth
+   48  vim test.txt
+   49  git status
+   50  git commit -a -m "new txt2 file added with both add and commit"
+   51  git status
+   52  git log
+   53  git --oneline
+   54  git log --oneline
+   55  git config --global user.name rahulrambo9
+   56  git config --global user.email rahulvhd9@gmail.com
+   57  git config
+   58  git status
+   59  git add .
+   60  git status
+   61  git commit -m "new text2 file added"
+   62  git status
+   63  git log
+   64  history
